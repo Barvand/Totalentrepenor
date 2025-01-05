@@ -7,7 +7,7 @@
     "dev": "vite",
     "lint": "eslint .",
     "preview": "vite preview",
-    "build": "tailwindcss -i ./src/index.css -o ./dist/styles.css",
+    "build": "vite build",
     "watch": "tailwindcss -i ./src/index.css -o ./dist/styles.css --watch"
   },
   "dependencies": {
