@@ -1,9 +1,8 @@
 import { Carousel, IconButton } from "@material-tailwind/react";
 
-
 export default function CarouselCustomArrows() {
   return (
-    <div className="container h-96 mt-5">
+    <div className="carousel-height">
       <Carousel
         prevArrow={({ handlePrev }) => (
           <IconButton
@@ -54,21 +53,23 @@ export default function CarouselCustomArrows() {
           </IconButton>
         )}
       >
-        <img
-          src="/media/unsplash-builders.jpg" 
-          alt="image 1"
-          className="h-full w-full object-cover"
-        />
-        <img
-          src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
-          alt="image 2"
-          className="h-full w-full object-cover"
-        />
-        <img
-          src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
-          alt="image 3"
-          className="h-full w-full object-cover"
-        />
+        <div className="flex justify-center items-center flex-col carousel-bg-img-1 text-center carousel-height">
+          <div className="isolate text-white flex flex-col gap-2">
+            <h1> Begyn med bygging nå</h1>
+            <button className="p-4 btn text-black font-bold py-2 bg-secondary rounded-md hover:bg-yellow-700 transition duration-200 cursor-pointer">
+              {" "}
+              RING OSS{" "}
+            </button>
+          </div>
+        </div>
+        <div className="flex justify-center items-center flex-col carousel-bg-img-1 text-center carousel-height">
+          <h1> Begyn med bygging na </h1>
+          <p className="py-2"> Ring oss </p>
+        </div>
+        <div className="flex justify-center items-center flex-col carousel-bg-img-1 text-center carousel-height">
+          <h1> Begyn med bygging na </h1>
+          <p className="py-2"> Ring oss </p>
+        </div>
       </Carousel>
     </div>
   );

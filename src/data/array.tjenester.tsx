@@ -8,7 +8,7 @@ export interface Tjeneste {
 export const tjenester = [
   {
     id: "1",
-    title: "Drenering",
+    title: "Massehåndtering",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     image: [
@@ -20,7 +20,7 @@ export const tjenester = [
   },
   {
     id: "2",
-    title: "Maling",
+    title: "Graving",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     image: [
@@ -32,7 +32,7 @@ export const tjenester = [
   },
   {
     id: "3",
-    title: "Rørlegger",
+    title: "Rørlegging utendørs (VA)",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     image: [
@@ -44,7 +44,7 @@ export const tjenester = [
   },
   {
     id: "4",
-    title: "Store prosjekter",
+    title: "Betongarbeid",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     image: [
@@ -56,7 +56,67 @@ export const tjenester = [
   },
   {
     id: "5",
-    title: "Små ting",
+    title: "Anleggsgartner",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    image: [
+      {
+        url: "https://images.unsplash.com/photo-1622057655812-668d0c737144?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGJ1aWxkZXJzfGVufDB8fDB8fHww",
+        alt: "alt image",
+      },
+    ],
+  },
+  {
+    id: "6",
+    title: "Søknad, skilt og planer",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    image: [
+      {
+        url: "https://images.unsplash.com/photo-1622057655812-668d0c737144?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGJ1aWxkZXJzfGVufDB8fDB8fHww",
+        alt: "alt image",
+      },
+    ],
+  },
+  {
+    id: "7",
+    title: "Tak, nedløp og beslag",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    image: [
+      {
+        url: "https://images.unsplash.com/photo-1622057655812-668d0c737144?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGJ1aWxkZXJzfGVufDB8fDB8fHww",
+        alt: "alt image",
+      },
+    ],
+  },
+  {
+    id: "8",
+    title: "Gjerder",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    image: [
+      {
+        url: "https://images.unsplash.com/photo-1622057655812-668d0c737144?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGJ1aWxkZXJzfGVufDB8fDB8fHww",
+        alt: "alt image",
+      },
+    ],
+  },
+  {
+    id: "9",
+    title: "Mur og flis",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    image: [
+      {
+        url: "https://images.unsplash.com/photo-1622057655812-668d0c737144?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGJ1aWxkZXJzfGVufDB8fDB8fHww",
+        alt: "alt image",
+      },
+    ],
+  },
+  {
+    id: "10",
+    title: "Tømrerarbeid",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     image: [

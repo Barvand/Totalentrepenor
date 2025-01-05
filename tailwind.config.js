@@ -9,8 +9,9 @@ export default withMT({
         center: true,
       },
       colors: {
-        primary: "#002D5B", // Hex code for your primary color
-        secondary: "#E6F0F8", // Hex code for your secondary color
+        primary: "#002D5B",
+        secondary: "#E6F0F8",
+        accent: "#FDCB6E",
       },
     },
   },
