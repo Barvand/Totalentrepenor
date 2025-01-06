@@ -133,7 +133,6 @@ nav {
 
 .carousel-bg-img-1::before { 
   content: ""; 
-  background-image: url("/assets/unsplash-builders.jpg");
   background-size: cover;
   background-position: center; 
   position: absolute;
