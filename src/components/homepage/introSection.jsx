@@ -1,7 +1,7 @@
 export default function IntroSection() {
   return (
     <>
-      <section className="mt-5 container grid gap-4 text-center sm:grid-cols-1 lg:grid-cols-2">
+      <section className="container grid gap-4 text-center sm:grid-cols-1 lg:grid-cols-2">
         <div className="bg-secondary p-4 box-shadow">
           <h1 className="mb-4 text-2xl font-bold leading-none tracking-tight text-primary dark:text-white">
             Vi opererer i Bergen og område

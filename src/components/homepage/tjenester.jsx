@@ -20,7 +20,7 @@ export default function Tjenester() {
         <h2 className="underline-color mb-2 text-3xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white">
           Tjenester
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-4">
           {displayedData.map((tjeneste) => (
             <Link
               key={tjeneste.id}
