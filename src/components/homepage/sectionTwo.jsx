@@ -4,7 +4,7 @@ import { FaTools } from "react-icons/fa";
 
 export default function SectionTwo() {
   return (
-    <section className="bg-secondary w-full py-10 flex justify-center items-center h-96">
+    <section className="bg-secondary w-full py-10 flex justify-center items-center h-full md:h-96">
       <div className="container flex justify-evenly flex-wrap gap-8">
         <div className="text-center flex flex-col items-center gap-3 max-w-xs">
           <FaTools className="text-5xl text-primary" />
