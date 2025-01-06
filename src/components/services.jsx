@@ -1,24 +1,15 @@
 import { Link } from "react-router-dom";
-import { tjenester } from "../../data/array.tjenester";
+import { tjenester } from "../data/array.tjenester";
 
-export default function TjenesterHomepage() {
-  const limitedTjenester = tjenester.slice(7);
-
-  console.log(limitedTjenester);
-
+export default function AllServices() { 
   return (
     <>
       <section className="container">
-        <div className="flex justify-between">
-          <h2 className="underline-color mb-2 text-3xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white">
-            Tjenester
-          </h2>
-          <Link className="text-sm text-black" to="/tjenester/">
-            Se alle tjenester
-          </Link>
-        </div>
+        <h2 className="underline-color mb-2 text-3xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white">
+          Tjenester
+        </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p">
-          {limitedTjenester.map((tjeneste) => (
+          {tjenester.map((tjeneste) => (
             <Link
               key={tjeneste.id}
               to={`/tjenester/${encodeURIComponent(tjeneste.title)}`}

@@ -1,6 +1,6 @@
 import IntroSection from "../components/homepage/introSection";
 import CarouselCustomArrows from "../components/homepage/carousel";
-import Tjenester from "../components/homepage/tjenester";
+import TjenesterHomepage from "../components/homepage/tjenester";
 import SectionTwo from "../components/homepage/sectionTwo";
 
 export default function indexPage() {
@@ -8,8 +8,8 @@ export default function indexPage() {
     <>
       <CarouselCustomArrows />
       <IntroSection />
-      <Tjenester />
-      <SectionTwo/>
+      <TjenesterHomepage />
+      <SectionTwo />
     </>
   );
 }
