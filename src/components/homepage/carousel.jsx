@@ -53,18 +53,30 @@ export default function CarouselCustomArrows() {
           </IconButton>
         )}
       >
-        <div className="flex justify-center items-center flex-col carousel-bg-img-1 text-center carousel-height">
-          <div className="isolate text-white flex flex-col gap-2">
-            <h1> Begyn med bygging nå</h1>
-            <button className="p-4 btn text-black font-bold py-2 bg-secondary rounded-md hover:bg-yellow-700 transition duration-200 cursor-pointer">
-              {" "}
-              RING OSS{" "}
-            </button>
+        <div className="carousel-bg-img-1 carousel-height flex items-center">
+          <div className="isolate text-white flex flex-col gap-5 container items-center">
+            <h1 className="logo-hero">
+              Total <span className="text-accent">Entreprenør</span>
+            </h1>
+            <div className="w-96 py-5">
+              <p className="hero-text font-bold">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div className="flex gap-5">
+              <button className="py-2 btn font-bold bg-accent bg-opacity-50 hover:bg-opacity-100 rounded text-black">
+                Tjenester
+              </button>
+              <button className="py-2 btn font-bold bg-secondary bg-opacity-50 hover:bg-opacity-100 rounded text-black">
+                Om oss
+              </button>
+            </div>
           </div>
         </div>
         <div className="flex justify-center items-center flex-col carousel-bg-img-1 text-center carousel-height">
           <h1> Begyn med bygging na </h1>
-          <p className="py-2"> Ring oss </p>
+          <p className="py-2 btn"> Tjenester </p>
         </div>
         <div className="flex justify-center items-center flex-col carousel-bg-img-1 text-center carousel-height">
           <h1> Begyn med bygging na </h1>
